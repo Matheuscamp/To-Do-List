@@ -4,7 +4,7 @@ This is a website for adding daily tasks.
 
 # Preview
 
-<img src="./imgs/preview.png" height="500"/>
+<img src="./imgs/preview-ToDoList.png" height="500"/>
 
 ## Live link:
 
