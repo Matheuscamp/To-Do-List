@@ -3,6 +3,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background-color: rgb(20, 20, 20);
+}
+h1 {
+  font-size: 49px;
+  color: white;
+  border-bottom: 6px solid grey;
 }
 .section-main {
   display: flex;
@@ -18,7 +24,7 @@ body {
   justify-content: center;
 }
 .campo-input {
-  width: 230px;
+  width: 250px;
   height: 36px;
   border-radius: 10px;
 }
@@ -28,21 +34,37 @@ body {
   border-radius: 50%;
   margin-left: 8px;
   font-size: 28px;
-  background-color: #1c141c;
-  border-color: #1c141c;
+  background-color: #222222;
+  border-color: #222222;
   color: white;
 }
 .toDo-item {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 700px;
+  height: auto;
+  background-color: rgb(151, 151, 151);
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 ul {
   list-style: none;
+  padding: 0;
 }
-.checkbox-lista {
-  width: 30px;
-  height: 29px;
-  margin-right: 10px;
+label {
+  font-size: 39px;
+  color: white;
+}
+.botaoConcluido-lista {
+  width: 49px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: greenyellow;
+  border-color: greenyellow;
+  font-size: 22px;
+  margin-bottom: 3px;
+  margin-right: 3px;
 }

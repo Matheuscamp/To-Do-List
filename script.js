@@ -6,26 +6,21 @@ function adicionarTarefa() {
     let itemLista = document.createElement("li");
     itemLista.className = "toDo-item";
 
-    let checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.className = "checkbox-lista";
-    itemLista.appendChild(checkbox);
-
     let label = document.createElement("label");
     label.textContent = tarefa;
     label.className = "label-lista";
     itemLista.appendChild(label);
 
-    let botaoRemover = document.createElement("button");
-    botaoRemover.textContent = "❌";
-    botaoRemover.className = "botaoRemover-lista";
-    itemLista.appendChild(botaoRemover);
+    let botaoConcluido = document.createElement("button");
+    botaoConcluido.textContent = "✔";
+    botaoConcluido.className = "botaoConcluido-lista";
+    itemLista.appendChild(botaoConcluido);
 
     document.getElementById("listaTarefas").appendChild(itemLista);
 
     input.value = "";
 
-    botaoRemover.addEventListener("click", function () {
+    botaoConcluido.addEventListener("click", function () {
       itemLista.remove();
     });
   }
