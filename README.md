@@ -1,4 +1,4 @@
-# To-Do-List
+# To Do List
 
 This is a website for adding daily tasks.
 
