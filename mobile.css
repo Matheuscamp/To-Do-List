@@ -1,0 +1,8 @@
+@media only screen and (max-device-width: 450px) {
+  label {
+    font-size: 29px;
+  }
+  .toDo-item {
+    width: 100vw;
+  }
+}
